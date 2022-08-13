@@ -1,5 +1,5 @@
 # CoincheckTryServer
-非公式Coincheck過去ログを用いた練習用サーバー
+非公式Coincheck過去データ（板情報・取引履歴）を用いた練習用サーバー
 
 # 環境構築
 ## Docker build
@@ -8,7 +8,7 @@ docker build --tag ccheckserver:latest -f ./Dockerfile .
 ```
 
 # 使い方
-## 過去データ格納
+## 過去データの取得と格納
 * GoogleDriveからダウンロード：
     * 300秒間隔：https://drive.google.com/drive/folders/1XK5OGrOz7r_zrejHXVJ3Zkon69tEPlNi?usp=sharing
     * 60秒間隔：
