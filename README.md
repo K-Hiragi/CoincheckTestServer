@@ -9,7 +9,10 @@ docker build --tag ccheckserver:latest -f ./Dockerfile .
 
 # 使い方
 ## 過去データ格納
-* GoogleDriveからダウンロード：https://drive.google.com/drive/folders/1XK5OGrOz7r_zrejHXVJ3Zkon69tEPlNi?usp=sharing
+* GoogleDriveからダウンロード：
+    * 300秒間隔：https://drive.google.com/drive/folders/1XK5OGrOz7r_zrejHXVJ3Zkon69tEPlNi?usp=sharing
+    * 60秒間隔：
+    * 10秒間隔：
 * ./opt/dataset/にh5ファイルを格納。以下例：
 ```
 $ ls ./opt/dataset/
