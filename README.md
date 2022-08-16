@@ -13,7 +13,7 @@ docker build --tag ccheckserver:latest -f ./Dockerfile .
     * 300秒間隔：https://drive.google.com/drive/folders/1XK5OGrOz7r_zrejHXVJ3Zkon69tEPlNi?usp=sharing
     * 60秒間隔：
     * 10秒間隔：
-    * 補足：データの二次配布は禁止します（同一組織・チーム内共有は可）
+    * 注意：データの二次配布は禁止します（同一組織・チーム内共有は可）
 * ./opt/dataset/にh5ファイルを格納。以下例：
 ```
 $ ls ./opt/dataset/
