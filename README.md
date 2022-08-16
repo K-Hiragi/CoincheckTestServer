@@ -11,7 +11,7 @@ docker build --tag ccheckserver:latest -f ./Dockerfile .
 ## 過去データの取得と格納
 * GoogleDriveからダウンロード：
     * 300秒間隔：https://drive.google.com/drive/folders/1XK5OGrOz7r_zrejHXVJ3Zkon69tEPlNi?usp=sharing
-    * 60秒間隔：
+    * 60秒間隔：（ストレージ維持費の関係でここに置きました）https://www.mlmarket.jp/user/4
     * 10秒間隔：
     * 注意：データの二次配布は禁止します（同一組織・チーム内共有は可）
 * ./opt/dataset/にh5ファイルを格納。以下例：
